@@ -1,0 +1,154 @@
+**DEVOPS ASSIGNMENT 1: VERSION CONTROL USING GIT & GITHUB**
+
+---
+
+**Objective:**
+To understand and perform basic Git operations such as repository creation, cloning, adding files, committing changes, pushing to GitHub, pulling updates, and working with branches and tags.
+
+---
+
+### 1. Git Configuration
+
+First, Git was configured using the following commands:
+
+git config --global user.name "ShradhaMagar12"
+git config --global user.email "shradharmagar12@gmail.com"
+
+This step is required to identify the user making commits.
+
+---
+
+### 2. Repository Creation on GitHub
+
+A new repository named **devops-assignment1** was created on GitHub.
+The repository was set to public for easy access.
+
+---
+
+### 3. Cloning the Repository
+
+The repository was cloned to the local machine using:
+
+git clone https://github.com/yourusername/devops-assignment1.git
+
+This creates a local copy of the remote repository.
+
+---
+
+### 4. Navigating into Repository
+
+cd devops-assignment1
+
+---
+
+### 5. Creating a File
+
+A text file named **assignment.txt** was created and edited.
+
+---
+
+### 6. Checking Repository Status
+
+git status
+
+This command shows the current state of the repository and any changes made.
+
+---
+
+### 7. Adding Files to Staging Area
+
+git add assignment.txt
+
+OR to add all files:
+
+git add .
+
+This step prepares files for commit.
+
+---
+
+### 8. Committing Changes
+
+git commit -m "Added assignment file"
+
+This saves changes locally with a message.
+
+---
+
+### 9. Pushing to GitHub
+
+git push origin main
+
+This uploads local commits to the GitHub repository.
+
+---
+
+### 10. Pulling Updates
+
+git pull origin main
+
+This fetches and updates the local repository with remote changes.
+
+---
+
+### 11. Branch Creation
+
+git branch feature1
+
+This creates a new branch.
+
+---
+
+### 12. Switching Branch
+
+git checkout feature1
+
+OR
+
+git switch feature1
+
+---
+
+### 13. Working on Branch
+
+After switching, changes were made and committed:
+
+git add .
+git commit -m "Updated feature1"
+
+---
+
+### 14. Pushing Branch to GitHub
+
+git push origin feature1
+
+---
+
+### 15. Merging Branch
+
+git checkout main
+git merge feature1
+
+This merges feature1 into main branch.
+
+---
+
+### 16. Creating Tags
+
+git tag v1.0
+
+---
+
+### 17. Pushing Tags
+
+git push origin v1.0
+
+---
+
+### Conclusion
+
+Through this assignment, I learned how to use Git as a version control system.
+I performed repository creation, cloning, staging, committing, pushing, pulling, branching, merging, and tagging.
+This helps in efficient code management and collaboration in software development.
+
+---
